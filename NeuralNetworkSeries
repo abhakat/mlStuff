@@ -1,0 +1,18 @@
+# Part 1
+A neural network is a very popular algorithm for machine learing.
+* neural network can fix to a varied dataset
+* a neural network is a set of 
+* parameter estiamtes are analogous to when we fit a straight line to data
+* we start with unknown parameter values athat are estimated when we fit a neural network to a dataset
+* curved line is called softplus
+* bentlines are called ReLus, rectified learning unit
+* sigmoid shape or any other bent or curevd line
+* curved or bent liens are called activation functions
+* when you build a neural network you have to decide what activation function you want to use
+* in practice it is much more common to use the ReLU activation fucntion(soft plus activation function)
+* usually nueral netowrks have multiple layers between input and output nodes
+* layers between input and output nodes are called hidden layers
+* you decide how many hidden layers you want 
+* neural networks uses curved/bent lines in hidden layer and adds them together to get a curve that fits the data
+* function to get input to soft plus function
+* ![alt text](image7.png)
