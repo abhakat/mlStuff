@@ -29,3 +29,11 @@
 * Pooling and architecture changes increase the size of the receptive field
 * we can shape the receptive field by 0ing out parts of the layer
 * receptive field is the portion of the input needed to create the current feature we are looking at in a convolution layer.
+
+## What is pooling:
+* a method to reduce the number of layers(reduce size of intermediate features)
+* similar to convolution, pooling takes a filter and slide it across
+* pooling computes an operation on each valid position and returns a single value on output
+* ![alt text](pics/image10.png)
+* ![alt text](pics/image11.png)
+
