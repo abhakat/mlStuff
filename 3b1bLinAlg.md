@@ -103,3 +103,50 @@ Mathmatician: more abstract
   * if both b and c are nonzero, we figure out how much is stretches in the diagnol distances
 * there is a formula for 3d dets:
   * ![alt text](pics/image-15.png)
+
+# Chapter 7
+* Linear algebra is good for us solving systems of equations
+* we throw all variables on the left and all lingering variables on the right
+* add zeros as needed
+  * this is called a linear system of equations
+  * ![alt text](pics/image-16.png)
+* provides a nice linear interpretation
+  * think about it as squishing and morphing space to find which vector lands
+* we think about it of if A has zero or non determinant
+  * basically checking if space gets squished into a smaller dimension
+* A inverse is the unique matrix that if you multiple A inverse with A you get the matrix which corresponds to nothing which is the identity matrix 
+  * as long as the determinant is non 0, there exists an inverse
+  * lot harder for a solution to exist when it squishes a point onto a line vs onto a plane
+  
+* Rank means the number of dimensionsin the output of a transformation
+  * means the basis vectors span the full 2 dimension output
+  * if a 3d tranformation has a non-zero determinant, it is called the column space of a matrix
+  * the columns tell us where the basic vector lands
+  * the set of vectors which land on the origin are called the null space
+  * you cannot unsquish a line and turn it into a plane
+  * functions can only take a single input to a single output
+  * there will be no inverse since any region is squished onto something with 0 volume
+
+# Chapter 8: non square matrices as transformations between dimsensions
+* encoding a transformation as a landing spot
+  * the column space of a 2d matrix
+  * mapping dimensions to other dimensions
+  * 3 x 2 -> maps 2d space to 3d, 2x3 maps 3d space to 2d 
+
+# Chapter 9: Dot products and duality
+* if you have two vectors of the same dimesnion
+  * you pair up the values that map to their respective positions then sum it all up
+  * when 2 vectors are in same direction, their dot product is positive
+  * when they are perpendicular, their dod product is 0
+* linear transformations take a 2d input and output 
+  * line of dots remain evenly space
+    * if there is aline of dots that do not remain evenly spaced, the line is not linear
+  * each basis vector lands on a number as the column of a vector
+    * each column has a single number
+    * a consequence of linearity is that a vector 
+  * we defined a linear transformation from 2d matrix to numbers
+    * taking dot product with a unit vector can be interpreted as taking the span oa  unit vector and adding on to its length
+
+# Chapter 10:Cross Products:
+* for a 2d cross product
+  * ![alt text](pics/image15.png)
